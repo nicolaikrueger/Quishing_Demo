@@ -4,43 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quishing Awareness</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        h1 {
-            color: #d9534f;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-        a {
-            color: #0275d8;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Quishing: Die Gefahr hinter QR-Codes</h1>
-    <p>Quishing beschreibt die Nutzung manipulierter QR-Codes, um Nutzer auf gefährliche oder betrügerische Webseiten zu leiten. Es mag harmlos wirken, einen QR-Code zu scannen, doch Vorsicht ist geboten!</p>
-    <p>Schützen Sie sich, indem Sie immer prüfen:</p>
-    <ul>
-        <li>Woher stammt der QR-Code?</li>
-        <li>Welche URL wird angezeigt, bevor Sie die Seite öffnen?</li>
-        <li>Ist die Quelle vertrauenswürdig?</li>
-    </ul>
-    <p>Bleiben Sie wachsam – nicht jeder QR-Code führt Sie an den richtigen Ort!</p>
-    <p><strong>Danke, dass Sie diesen QR-Code gescannt haben – und denken Sie daran:</strong></p>
-    <p><em>„Man sollte nie unbedacht QR-Codes scannen.“</em></p>
-    <p>Mehr Informationen finden Sie auf <a href="https://www.polizei-dein-partner.de/themen/internet-mobil/detailansicht-internet-mobil/artikel/vorsicht-quishing.html" target="_blank">https://www.polizei-dein-partner.de/themen/internet-mobil/detailansicht-internet-mobil/artikel/vorsicht-quishing.html</a>.</p>
+<body class="bg-light text-dark">
+    <div class="container py-5">
+        <div class="text-center mb-4">
+            <h1 class="text-danger">Quishing: Die Gefahr hinter QR-Codes</h1>
+            <p class="lead">Manipulierte QR-Codes können Sie auf gefährliche Webseiten führen. Bleiben Sie wachsam!</p>
+        </div>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h3 class="card-title">Wie können Sie sich schützen?</h3>
+                <ul class="list-group list-group-flush my-3">
+                    <li class="list-group-item">Prüfen Sie, woher der QR-Code stammt.</li>
+                    <li class="list-group-item">Überprüfen Sie die URL, bevor Sie die Seite öffnen.</li>
+                    <li class="list-group-item">Stellen Sie sicher, dass die Quelle vertrauenswürdig ist.</li>
+                </ul>
+                <p class="mt-3">
+                    <strong>Danke, dass Sie diesen QR-Code gescannt haben – denken Sie daran:</strong>
+                </p>
+                <blockquote class="blockquote text-center">
+                    <p>„Man sollte nie unbedacht QR-Codes scannen.“</p>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <p>Mehr Informationen finden Sie auf <a href="https://www.polizei-dein-partner.de/themen/internet-mobil/detailansicht-internet-mobil/artikel/vorsicht-quishing.html" target="_blank" class="text-primary">polizei-dein-partner.de</a>.</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (Optional, falls interaktive Komponenten genutzt werden) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
